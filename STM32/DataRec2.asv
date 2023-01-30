@@ -1,0 +1,29 @@
+clear; clc;
+
+Data = readtable("DataRec2.csv");
+Real_ThetaE = Data.I7(40000:45000);
+Observer_ThetaE = Data.I10(40000:45000);
+Observer_ThetaE2 = Data.I6(40000:45000);
+
+f1 = figure(1);
+plot(Real_ThetaE); hold on;
+plot(Observer_ThetaE); hold off;
+
+Observer_Error = Real_ThetaE - Observer_ThetaE + 0.20;
+
+a1 = 0.2138;
+b1 = 2;
+c1 = 0.2675;
+d1 = -0.21;
+
+Observer_ThetaE2 = Observer_ThetaE + a1*sin(b1*Observer_ThetaE + c1) + d1;
+
+f2 = figure(2);
+plot(Real_ThetaE); hold on;
+plot(Observer_ThetaE2); hold off;
+
+for i = 1:length(Observer_Error)
+    if(Observer_Error(i) > pi())
+        Observer_Error(i) = Observer_Error(i) - 2*pi(); 
+    end
+end

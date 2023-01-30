@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "sensorless.h": "c",
+        "filt.h": "c",
+        "limits": "c",
+        "memory": "c"
+    }
+}

@@ -1,0 +1,101 @@
+T48A8 073:953.600   SEGGER J-Link V7.66b Log File
+T48A8 073:953.655   DLL Compiled: May 30 2022 14:07:50
+T48A8 073:953.662   Logging started @ 2022-05-31 12:12
+T48A8 073:953.666 - 20.474ms
+T48A8 073:953.679 JLINK_SetWarnOutHandler(...)
+T48A8 073:953.683 - 0.006ms
+T48A8 073:953.689 JLINK_OpenEx(...)
+T48A8 073:954.714   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T48A8 073:955.068   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T48A8 073:956.606   Hardware: V7.00
+T48A8 073:956.617   S/N: 20090928
+T48A8 073:956.624   OEM: SEGGER
+T48A8 073:956.631   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDB
+T48A8 073:957.385   TELNET listener socket opened on port 19021
+T48A8 073:961.934   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T48A8 073:962.053   WEBSRV Webserver running on local port 19080
+T48A8 073:984.079 - 30.405ms returns "O.K."
+T48A8 073:984.108 JLINK_GetEmuCaps()
+T48A8 073:984.114 - 0.008ms returns 0x88EA5833
+T48A8 073:984.121 JLINK_TIF_GetAvailable(...)
+T48A8 073:984.269 - 0.151ms
+T48A8 073:984.278 JLINK_SetErrorOutHandler(...)
+T48A8 073:984.283 - 0.007ms
+T48A8 073:984.541 JLINK_ExecCommand("ProjectFile = "D:\test\STM32 HFI SMO\MDK-ARM\JLinkSettings.ini"", ...). 
+T48A8 073:986.085 - 1.549ms returns 0x00
+T48A8 073:986.103 JLINK_ExecCommand("Device = STM32G431CBTx", ...). 
+T48A8 073:986.325   Device "STM32G431CB" selected.
+T48A8 073:986.700 - 0.595ms returns 0x00
+T48A8 073:986.712 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T48A8 073:986.720 - 0.004ms returns 0x01
+T48A8 073:986.726 JLINK_GetHardwareVersion()
+T48A8 073:986.731 - 0.007ms returns 70000
+T48A8 073:986.737 JLINK_GetDLLVersion()
+T48A8 073:986.742 - 0.007ms returns 76602
+T48A8 073:986.748 JLINK_GetOEMString(...)
+T48A8 073:986.753 JLINK_GetFirmwareString(...)
+T48A8 073:986.758 - 0.006ms
+T48A8 073:986.767 JLINK_GetDLLVersion()
+T48A8 073:986.771 - 0.006ms returns 76602
+T48A8 073:986.777 JLINK_GetCompileDateTime()
+T48A8 073:986.781 - 0.006ms
+T48A8 073:986.789 JLINK_GetFirmwareString(...)
+T48A8 073:986.794 - 0.006ms
+T48A8 073:986.800 JLINK_GetHardwareVersion()
+T48A8 073:986.804 - 0.006ms returns 70000
+T48A8 073:986.811 JLINK_GetSN()
+T48A8 073:986.816 - 0.007ms returns 20090928
+T48A8 073:986.822 JLINK_GetOEMString(...)
+T48A8 073:986.830 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T48A8 073:987.164 - 0.345ms returns 0x00
+T48A8 073:987.184 JLINK_HasError()
+T48A8 073:987.195 JLINK_SetSpeed(10000)
+T48A8 073:987.262 - 0.071ms
+T48A8 073:987.736 JLINK_HasError()
+T48A8 073:987.751 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T48A8 073:987.759 - 0.012ms returns JLINKARM_RESET_TYPE_NORMAL
+T48A8 073:987.770 JLINK_Reset()
+T48A8 073:987.942   InitTarget() start
+T48A8 073:987.953    J-Link Script File: Executing InitTarget()
+T48A8 074:491.770   Can not attach to CPU. Trying connect under reset.
+T48A8 075:045.293   Connecting to CPU via connect under reset failed.
+T48A8 075:096.113   InitTarget() end
+T48A8 075:096.137   Connect fallback: Reset via Reset pin & Connect.
+T48A8 075:153.436   InitTarget() start
+T48A8 075:153.463    J-Link Script File: Executing InitTarget()
+T48A8 075:656.400   Can not attach to CPU. Trying connect under reset.
+T48A8 076:210.982   Connecting to CPU via connect under reset failed.
+T48A8 076:261.276   InitTarget() end
+T48A8 076:261.301 - 2273.535ms
+T48A8 076:261.321 JLINK_GetId()
+T48A8 076:261.488   InitTarget() start
+T48A8 076:261.500    J-Link Script File: Executing InitTarget()
+T48A8 076:764.937   Can not attach to CPU. Trying connect under reset.
+T48A8 077:320.097   Connecting to CPU via connect under reset failed.
+T48A8 077:370.372   InitTarget() end
+T48A8 077:370.398   Connect fallback: Reset via Reset pin & Connect.
+T48A8 077:427.722   InitTarget() start
+T48A8 077:427.742    J-Link Script File: Executing InitTarget()
+T48A8 077:931.089   Can not attach to CPU. Trying connect under reset.
+T48A8 078:485.835   Connecting to CPU via connect under reset failed.
+T48A8 078:536.878   InitTarget() end
+T48A8 078:536.905 - 2275.587ms returns 0x00000000
+T48A8 078:536.923 JLINK_GetId()
+T48A8 078:537.120   InitTarget() start
+T48A8 078:537.133    J-Link Script File: Executing InitTarget()
+T48A8 079:040.372   Can not attach to CPU. Trying connect under reset.
+T48A8 079:197.533   Connecting to CPU via connect under reset failed.
+T48A8 079:248.341   InitTarget() end
+T48A8 079:248.370   Connect fallback: Reset via Reset pin & Connect.
+T48A8 079:305.046   InitTarget() start
+T48A8 079:305.085    J-Link Script File: Executing InitTarget()
+T48A8 079:808.681   Can not attach to CPU. Trying connect under reset.
+T48A8 080:085.482   Connecting to CPU via connect under reset failed.
+T48A8 080:135.622   InitTarget() end
+T48A8 080:135.656 - 1598.738ms returns 0x00000000
+T48A8 080:137.656 JLINK_GetFirmwareString(...)
+T48A8 080:137.668 - 0.014ms
+T48A8 082:851.825 JLINK_Close()
+T48A8 082:872.158 - 20.350ms
+T48A8 082:872.180   
+T48A8 082:872.188   Closed

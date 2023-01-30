@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "dataprocessing.h": "c",
+        "stm32g4xx_ll_adc.h": "c",
+        "foc.h": "c"
+    }
+}

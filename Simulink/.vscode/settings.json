@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "dataprocessing.h": "c",
+        "datasampling.h": "c"
+    }
+}
